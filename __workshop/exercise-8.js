@@ -7,7 +7,12 @@ function exercise8() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-
+  for (num = 0; num <= 5000; num++) {
+    if (num % 4 == 0) {
+      num = num + num;
+      sum = num;
+    }
+  }
   console.log(`The sum is ${sum}`);
   // -----------------------------------------------------------------
   // Write code between the lines (above)

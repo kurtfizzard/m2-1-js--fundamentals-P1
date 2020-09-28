@@ -13,6 +13,21 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  function makeLine(length) {
+    var line = "";
+    for (var x = 1; x <= length; x++) {
+      line += "#";
+    }
+    return line + "\n";
+  }
+
+  function buildTriangle(length) {
+    var triangle = "";
+    for (var x = 1; x <= length; x++) {
+      triangle += makeLine(x);
+    }
+    return triangle;
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
